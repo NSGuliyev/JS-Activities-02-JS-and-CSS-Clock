@@ -48,11 +48,24 @@ nav ul li a:hover {
   color: #e6af2e;
 }
 
-@media screen and (min-width: 520px) {
- nav ul {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: baseline ;
-   justify-content: space-between;
- }
-}
+@media screen and (min-width: 576px) {
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    flex: 1 0 auto;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .logo .fa {
+    display: none;
+  }
+} ;

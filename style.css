@@ -118,3 +118,54 @@ nav ul li a:hover {
   color: #e0e2db;
   background: #e6af2e;
 }
+
+/* ########## Skills Section ########## */
+
+#skills {
+  padding: 60px 0;
+  background-color: #beb7a4;
+}
+
+.skills-container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.skills-item {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skills-item .fa,
+.far {
+  font-size: 60px;
+  color: #191716;
+}
+
+.skills-item h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  color: #e6af2e;
+  text-transform: uppercase;
+}
+
+.skills-item p {
+  width: 75%;
+  margin: 0 auto;
+  color: #e0e2db;
+}
+
+@media screen and (min-width: 576px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .skills-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+  }
+}

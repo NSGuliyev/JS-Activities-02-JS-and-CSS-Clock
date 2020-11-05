@@ -90,6 +90,7 @@ nav ul li a:hover {
   text-transform: uppercase;
   color: #e0e2db;
   font-style: italic;
+  text-align: center;
 }
 
 .banner-underline {
@@ -104,16 +105,16 @@ nav ul li a:hover {
 }
 
 .banner-btn button {
-    font-size: 30px;
-    padding: 15px;
-    text-transform: uppercase;
-    margin: 0 10px;
-    background: transparent;
-    color: #e6af2e;
-    border: 2px solid #e6af2e;
+  font-size: 30px;
+  padding: 15px;
+  text-transform: uppercase;
+  margin: 0 10px;
+  background: transparent;
+  color: #e6af2e;
+  border: 2px solid #e6af2e;
 }
 
 .banner-btn button:hover {
   color: #e0e2db;
-  background: #e6af2e ;
+  background: #e6af2e;
 }

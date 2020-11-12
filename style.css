@@ -389,4 +389,39 @@ nav ul li a:hover {
   }
 }
 
+/* ########## Projects Section ########## */
 
+#filler-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/filler.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+#filler-contact h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #e0e2db;
+  margin-bottom: 10px;
+}
+
+#filler-contact button {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #e6af2e;
+  border: 2px solid #e6af2e;
+  padding: 10px 15px;
+  background: transparent;
+}
+
+#filler-contact button:hover {
+  background-color: #e6af2e;
+  color: #191716;
+}

@@ -426,6 +426,8 @@ nav ul li a:hover {
   color: #191716;
 }
 
+/* ########## Post Section ########## */
+
 #post {
   background-color: #beb7a4;
   padding: 20px 0 80px 0;
@@ -507,4 +509,35 @@ nav ul li a:hover {
   }
 }
 
+/* ########## Footer Section ########## */
 
+footer {
+  background-color: #191716;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-text {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #e0e2db;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  font-size: 30px;
+}
+
+.footer-icon .fa {
+  margin-right: 10px;
+  color: #e0e2db;
+  transition: transform 2s;
+}
+
+.footer-icon .fa:hover {
+  color: #e6af2e;
+  transform: translateY(-15px);
+}

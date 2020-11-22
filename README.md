@@ -6,20 +6,15 @@ something like bootstrap or any other frameforks
 Second is for the lay out it is not used any kind of CSS floats or any kind of CIRCE's hacks. 
 The styling done by using CSS grid and CSS flexbox.
 
-## Navbar 
-
 ## Banner
-Right so we're going to be using a flex box wrap property then we're going to be creating a banner.
+In this Ppoject we're going to be using a flex box wrap property then we're going to be creating a banner.
 So this is going to be our having one and we're going to have two buttons right as we're hovering.
 
 ## Skills
-Then the next section is going to be our skills section right.And you can see that it's going to look exactly like we will be using bootstrap right.
-So again if I'm going to make the screens more now I can see the changes to the two columns that are here.
+Then the next section is skills section. And you can see that it's going to look exactly like we will be using bootstrap right.
+I'm going to make the screens more now I can see the changes to the two columns that are here.
 This is going to change to actually single column right.
-And you can see that.
-Again this is going to be fun.
-This is going to be hitting one.
-And this is going to be parallel.
+And you can see that. This is going to be hitting one. And this is going to be parallel.
 So again I'm going to make the screen bigger and we're going to check out the next section that we're
 going to be creating.
 
@@ -52,10 +47,8 @@ And then after that we're we're going to be doing all right.
 We have a or here this little filler section right.
 Again we're going to be using a CSSA flex box in order to get this effect right.
 So they're side by side.
-And again if I make it in the smaller screen actually what's going to happen they are going to wrap
-around.
-So as you can see one the moment they hit each other actually this will wraps underneath the second
-one right.
+And again if I make it in the smaller screen actually what's going to happen they are going to wrap around.
+So as you can see one the moment they hit each other actually this will wraps underneath the second one right.
 
 ## Posts
 Going to have a recent post section right.
@@ -73,3 +66,5 @@ So enough of me yapping.
 Let's go to coding and let's start creating this project.
 
 # The Used Technologies
+
+HTML5, CSS
